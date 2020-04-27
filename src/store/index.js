@@ -54,6 +54,9 @@ const store = new Vuex.Store({
     removeCardFromList(context, payload) {
       context.commit('removeCardFromList', payload)
     },
+    updateList(context, payload) {
+      context.commit('updateList', payload)
+    }
   },
   getters: {
     totalCardCount(state) {
