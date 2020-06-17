@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>my Trello</header>
+    <header>Tasklist</header>
     <main>
       <p class="info-line">All: {{ totalCardCount }} tasks</p>
       <draggable :list="lists"
